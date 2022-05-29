@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', Start);
 var cena = new THREE.Scene();
 var camara = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
 var renderer = new THREE.WebGLRenderer();
-
+//----------parte diogo----------------------
 renderer.setSize(window.innerWidth-15, window.innerHeight-15);
 
 document.body.appendChild(renderer.domElement);
